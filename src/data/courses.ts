@@ -1,7 +1,7 @@
 export const courses: Course[] = [
     {
         title: 'title',
-        image: 'placeholder.png',
+        image: 'placeholder.jpg',
         author: 'Author',
         rating: 4.5,
         // priority:1,

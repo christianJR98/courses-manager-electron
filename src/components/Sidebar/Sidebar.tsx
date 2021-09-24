@@ -2,6 +2,11 @@ import React from 'react';
 
 import './sidebar.css';
 
+type props = {
+    label: string;
+    action: () => void
+}
+
 const Sidebar = () => {
     return (
         <ul className="sidebar__container">

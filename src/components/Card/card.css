@@ -1,21 +1,30 @@
 .card__container {
-    width: 10rem;
-    height: 10rem;
-    background-color: #0A1929;
+    width: 13rem;
+    height: 15rem;
+    background-color: #a58e64;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    /* background-color: #0A1929; */
 }
 
 .card__title {
-    width: 5rem;
-    height: 5rem;
+    width: 100%;
+    height: 3rem;
     font-size: 2rem;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .card__image {
-    width: 2rem;
-    height: 2rem;
+    width: 100%;
+    /* height: 2rem; */
 }
 
-.card__author {}
+.card__author {
+    color: white;
+}
 
-.card__rating {}
+.card__rating {
+    color: white;
+}
