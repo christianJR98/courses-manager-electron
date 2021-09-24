@@ -5,3 +5,7 @@ body {
   font-size: 16px;
   background-color: #001E3C;
 }
+
+.container {
+  display: flex;
+}

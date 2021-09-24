@@ -1,0 +1,15 @@
+.sidebar__container {
+    list-style-type: none;
+    width: 15%;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar__option {
+    font-size: 1.5rem;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}

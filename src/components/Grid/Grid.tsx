@@ -3,9 +3,9 @@ import React from 'react';
 const Grid = () => {
     return (
         <div>
-            Algo
+            Grid
             <div>
-                Otros
+                Item
             </div>
         </div>
     )
