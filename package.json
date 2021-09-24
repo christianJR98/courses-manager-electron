@@ -2,7 +2,7 @@
   "name": "courses-manager-electron",
   "productName": "courses-manager-electron",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "courses manager",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",

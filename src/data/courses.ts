@@ -1,15 +1,11 @@
-type course = {
-    title: string;
-    image: string;
-    author: string;
-    rating: number;
-
-    finished: boolean;
-    inProgress: boolean;
-}
-
-const courses = [
+export const courses: Course[] = [
     {
-        title: 'Algo'
+        title: 'title',
+        image: 'placeholder.png',
+        author: 'Author',
+        rating: 4.5,
+        // priority:1,
+        finished: false,
+        inProgress: false,
     }
 ]

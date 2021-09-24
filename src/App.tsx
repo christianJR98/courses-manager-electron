@@ -1,8 +1,10 @@
 import React from 'react';
+import Card from './components/Card/Card'
+import { courses } from './data/courses';
 
 const App = () => {
   return (
-    <div> My App </div>
+    <Card {...courses[0]} />
   )
 }
 

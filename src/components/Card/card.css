@@ -1,0 +1,21 @@
+.card__container {
+    width: 10rem;
+    height: 10rem;
+    background-color: #0A1929;
+}
+
+.card__title {
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.card__image {
+    width: 2rem;
+    height: 2rem;
+}
+
+.card__author {}
+
+.card__rating {}
