@@ -1,5 +1,6 @@
 import React, { FormEvent, useState } from 'react';
 const { ipcRenderer } = window.require('electron');
+import { ACTIONS } from '../../constants/actions/actions';
 
 import './addForm.css';
 
@@ -25,7 +26,7 @@ const AddForm = () => {
 
     const handleOnSubmit = async (e: FormEvent) => {
         e.preventDefault();
-        await ipcRenderer.invoke('addCourse', data);
+        await ipcRenderer.invoke(ACTIONS.ADD_COURSE, data);
     }
 
     return (

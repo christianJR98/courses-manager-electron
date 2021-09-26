@@ -1,0 +1,15 @@
+.input-search__container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-search__input {
+    outline: none;
+    border: none;
+    background-color: rgb(212, 212, 212);
+}
+
+.input-search__button {
+    border: none;
+    background-color: rgb(250, 62, 62);
+}

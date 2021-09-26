@@ -1,25 +1,17 @@
 import React, { useEffect, useState } from 'react';
-const { ipcRenderer } = window.require('electron');
 import Card from '../../components/Card/Card';
 
 import './grid.css';
 
-const Grid = () => {
-    const [courses, setCourses] = useState([])
+type props = {
+    data: Course[]
+}
 
-    useEffect(() => {
-        const getCourses = async () => {
-            const courses = await ipcRenderer.invoke('getCourses');
-            setCourses(courses)
-        }
-
-        getCourses()
-    }, [])
-
+const Grid = ({ data }: props) => {
     return (
         <div className="grid__container">
-            {courses.length > 0 ?
-                courses.map((item: Course) => <Card key={item.id} course={item} />)
+            {data.length > 0 ?
+                data.map((item: Course) => <Card key={item.id} course={item} />)
                 :
                 <div> There are no courses</div>
             }

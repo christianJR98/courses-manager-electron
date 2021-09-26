@@ -13,6 +13,9 @@ const Card = ({ course }: props) => {
 
             <div className='card__author'>{course.author}</div>
             <div className='card__rating'>{course.rating}</div>
+
+            <button>Update</button>
+            <button>Delete</button>
         </div>
     )
 }
