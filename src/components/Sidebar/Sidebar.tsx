@@ -21,10 +21,6 @@ const Sidebar = ({ options }: props) => {
                     </li>
                 )
             })}
-            {/* <li className="sidebar__option"><button></button> Show courses</li>
-            <li className="sidebar__option">Add course</li>
-            <li className="sidebar__option">Update course</li>
-            <li className="sidebar__option">Delete course</li> */}
         </ul>
     )
 }

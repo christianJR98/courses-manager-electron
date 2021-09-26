@@ -5,6 +5,7 @@ declare module '*.png' {
 }
 
 type Course = {
+    id: string;
     title: string;
     image: string;
     author: string;
